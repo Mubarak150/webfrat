@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.overflow {
+    /* Custom scrollbar */
+    /* width */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    scrollbar-width: thin; /* "auto" hides scrollbar until hovered */
+  
+    /* Track */
+    scrollbar-color: #283646 transparent; /* thumb color track color */
+  
+    /* Handle */
+    &::-webkit-scrollbar {
+      width: 5px; /* thinner scrollbar */
+      border-radius: 8px; /* rounded scrollbar */
+    }
+  
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: transparent; /* transparent track */
+    }
+  
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #a5aab1; /* thumb color */
+      border-radius: 8px; /* rounded thumb */
+    }
+  
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555; /* thumb color on hover */
+    }
+  }
+  
+
+  .testimonial-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .testimonial-slide {
+    display: flex;
+    transition: transform 0.5s ease; /* Add transition for smooth animation */
+  }
+  
