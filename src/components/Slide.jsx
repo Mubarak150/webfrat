@@ -14,7 +14,6 @@ export default function Slide () {
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: true,
-    pauseOnHover: true
   };
 
   return (

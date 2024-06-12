@@ -4,7 +4,7 @@ import classNames from 'classnames';
 export default function (props) {
     return (
         <a href={props.href}>
-            <button className={classNames('px-8 py-2 rounded-3xl text-sm', props.buttonClass)}>
+            <button className={classNames('lg:px-6 py-2 rounded-3xl text-sm min-w-28', props.buttonClass)}>
                 {props.text}
             </button>
         </a>

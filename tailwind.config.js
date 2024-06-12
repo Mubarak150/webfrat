@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'sp7': '912px', // Custom breakpoint for Surface Pro 7
+      },
       keyframes: {
         'slide-up': {
           '0%': { transform: 'translateY(100%)', opacity: 0 },
@@ -16,7 +19,7 @@ export default {
         'slide-up': 'slide-up 0.5s ease-out',
       },
       colors: {
-        blue: '#3A86FF', // Using the hex value for the color
+        blue: '#3A86FF', 
         slate: '#283646',
       },
       fontFamily: {

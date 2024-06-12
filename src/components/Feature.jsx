@@ -22,8 +22,8 @@ export default function Feature (props) {
 const features = [
     {
         id: '1',
-        src: '/web-development.png',
-        modelSrc: '/web-toggle.svg',
+        src: '/home/features/web-development.png',
+        modelSrc: '/home/modal/web-toggle.svg',
         heading: 'Web development',
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
         modalText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore '
@@ -31,8 +31,8 @@ const features = [
 
     {
         id: '2',
-        src: '/app-development.png',
-        modelSrc: '/app-toggle.svg',
+        src: '/home/features/app-development.png',
+        modelSrc: '/home/modal//app-toggle.svg',
         heading: 'Application Development (iOS and Android)',
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  ",
         modalText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore '
@@ -41,8 +41,8 @@ const features = [
 
     {
         id: '3',
-        src: '/web-hosting.png',
-        modelSrc: '/hosting-toggle.svg',
+        src: '/home/features/web-hosting.png',
+        modelSrc: '/home/modal//hosting-toggle.svg',
         heading: 'Optimized Web Hosting Services',
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  ",
         modalText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore '
@@ -51,8 +51,8 @@ const features = [
 
     {
         id: '4',
-        src: '/digital-marketing.png',
-        modelSrc: '/marketing-toggle.svg',
+        src: '/home/features/digital-marketing.png',
+        modelSrc: '/home/modal//marketing-toggle.svg',
         heading: 'Digital Marketing and SEO services',
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  ",
         modalText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore '
